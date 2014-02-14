@@ -44,7 +44,7 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 'http://protoprogramming.com',
+        url: 'http://ios-coder.com',
         mail: {},
         database: {
             client: 'sqlite3',
@@ -67,7 +67,7 @@ config = {
     // Used when developing Ghost to run tests and check the health of Ghost
     // Uses a different port number
     testing: {
-        url: 'http://protoprogramming.com',
+        url: 'http://ios-coder.com',
         database: {
             client: 'sqlite3',
             connection: {
