@@ -45,7 +45,16 @@ config = {
     // Configure your URL and mail settings here
     production: {
         url: 'http://ios-coder.com',
-        mail: {},
+        mail: {
+            transport: 'SMTP',
+            options: {
+                service: 'Gmail',
+                auth: {
+                    user: 'ioscoderblog@gmail.com',
+                    pass: 'lolipoplolipop'
+                }
+            }
+        },
         database: {
             client: 'sqlite3',
             connection: {
