@@ -43,7 +43,7 @@ config = {
   // When running Ghost in the wild, use the production environment
   // Configure your URL and mail settings here
   production: {
-    url: 'http://ios-coder.com',
+    url: 'http://blog.isorocket.com',
     mail: {
       transport: 'SMTP',
       options: {
